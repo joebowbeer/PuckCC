@@ -1,4 +1,4 @@
-var midi = require("ble_midi");
+const midi = require("ble_midi");
 midi.init();
 
 const CHANNEL = 10;
